@@ -15,6 +15,6 @@ router
 	.route("/:id")
 	.get(contacts.findOne)
 	.put(contacts.update)
-	.delete(contacts.remove);
+	.delete(contacts.remove);   
 
 export default router;
